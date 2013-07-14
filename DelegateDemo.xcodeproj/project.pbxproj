@@ -10,6 +10,8 @@
 		A4EA7F23179297280057E384 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4EA7F22179297280057E384 /* Foundation.framework */; };
 		A4EA7F26179297280057E384 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EA7F25179297280057E384 /* main.m */; };
 		A4EA7F2A179297280057E384 /* DelegateDemo.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = A4EA7F29179297280057E384 /* DelegateDemo.1 */; };
+		A4EA7F321792974E0057E384 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EA7F311792974E0057E384 /* Person.m */; };
+		A4EA7F351792984D0057E384 /* Agent.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EA7F341792984D0057E384 /* Agent.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +33,11 @@
 		A4EA7F25179297280057E384 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A4EA7F28179297280057E384 /* DelegateDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DelegateDemo-Prefix.pch"; sourceTree = "<group>"; };
 		A4EA7F29179297280057E384 /* DelegateDemo.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = DelegateDemo.1; sourceTree = "<group>"; };
+		A4EA7F301792974E0057E384 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		A4EA7F311792974E0057E384 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		A4EA7F331792984D0057E384 /* Agent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Agent.h; sourceTree = "<group>"; };
+		A4EA7F341792984D0057E384 /* Agent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Agent.m; sourceTree = "<group>"; };
+		A4EA7F36179298700057E384 /* FindApartment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindApartment.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +81,11 @@
 			isa = PBXGroup;
 			children = (
 				A4EA7F25179297280057E384 /* main.m */,
+				A4EA7F301792974E0057E384 /* Person.h */,
+				A4EA7F311792974E0057E384 /* Person.m */,
+				A4EA7F331792984D0057E384 /* Agent.h */,
+				A4EA7F341792984D0057E384 /* Agent.m */,
+				A4EA7F36179298700057E384 /* FindApartment.h */,
 				A4EA7F29179297280057E384 /* DelegateDemo.1 */,
 				A4EA7F27179297280057E384 /* Supporting Files */,
 			);
@@ -140,6 +152,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4EA7F26179297280057E384 /* main.m in Sources */,
+				A4EA7F321792974E0057E384 /* Person.m in Sources */,
+				A4EA7F351792984D0057E384 /* Agent.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
